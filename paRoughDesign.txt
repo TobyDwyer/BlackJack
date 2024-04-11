@@ -1,0 +1,45 @@
+Poker App:
+
+Basic Play:
+- Blinds
+	- BB/SB set as const for table
+	- Left of the dealer chip (D, SB, BB)
+
+- Hole Cards
+	- Each player dealt 2 cards Starting at x
+
+- R1 Bets
+	- Player left of BB start
+	- Raise, Check, Call, Fold
+	- Bets go into the Pot
+
+- Flop
+	- 3 Cards dealt to the middle
+
+- R2 Bets
+	- Player left of dealer starts
+	- Bet, Raise, check, call , fold
+	- Bets go into pot
+
+- Turn
+	- 1 card added to 3 middle cards
+	
+- Bet R3
+	- Another betting round
+
+- River
+	- Last card shown in middle
+	
+- R4 Bet
+	- Last betting round
+
+Considerations:
+- Keep track of players pots
+- Keep track of main pot
+- If player goes all in and there are <=2 other players still betting create side pot.
+- Move Dealer chip every round
+- Shuffle deck after eery round
+- Player fols they are out for that round of play
+- If only 1 player remains they win the pot
+- If players chip count = 0 they are out (Can Rebuy)
+- 
